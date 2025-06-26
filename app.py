@@ -26,10 +26,10 @@ class AestheticPredictor(nn.Module):
 # デバイス設定
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-# CLIPモデルと前処理の読み込み
-model_clip, preprocess = clip.load("ViT-L/14", device=device)
+# CLIPモデルと前処理の読み込み（変更箇所）
+model_clip, preprocess = clip.load("ViT-B/32", device=device)
 
-# Aestheticスコア予測モデルの読み込み
+# Aestheticスコア予測モデルの読み込み（変更箇所）
 @st.cache_resource
 def load_aesthetic_model():
     model = AestheticPredictor()
