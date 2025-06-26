@@ -5,6 +5,7 @@ aesthetic_model/venv/
 
 # キャッシュ系
 __pycache__/
+*.pyc
 .DS_Store
 
 # ノートブックの一時保存
@@ -19,9 +20,3 @@ __pycache__/
 
 # Streamlit関連のローカル設定
 .streamlit/
-
-venv/
-aesthetic_model/venv/
-__pycache__/
-*.pyc
-.DS_Store
