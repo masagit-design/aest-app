@@ -1,1 +1,21 @@
+# 仮想環境
+venv/
+.venv/
+aesthetic_model/venv/
+
+# キャッシュ系
+__pycache__/
 .DS_Store
+
+# ノートブックの一時保存
+.ipynb_checkpoints/
+
+# 重たいファイルやバイナリ
+*.dylib
+*.so
+*.pkl
+*.pt
+*.pth
+
+# Streamlit関連のローカル設定
+.streamlit/
