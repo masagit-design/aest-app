@@ -48,7 +48,8 @@ uploaded_file = st.file_uploader("画像をアップロードしてください"
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="アップロードされた画像", use_column_width=True)
+    st.image(image, caption="アップロードされた画像", use_container_width=True)
+
 
     image_tensor = preprocess(image).unsqueeze(0).to(device)
 
