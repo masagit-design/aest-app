@@ -7,6 +7,10 @@ aesthetic_model/venv/
 __pycache__/
 *.pyc
 .DS_Store
+# *.pth
+# aesthetic_model/
+
+
 
 # ノートブックの一時保存
 .ipynb_checkpoints/
@@ -16,7 +20,7 @@ __pycache__/
 *.so
 *.pkl
 *.pt
-*.pth
+
 
 # Streamlit関連のローカル設定
 .streamlit/
