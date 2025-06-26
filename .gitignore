@@ -19,3 +19,9 @@ __pycache__/
 
 # Streamlit関連のローカル設定
 .streamlit/
+
+venv/
+aesthetic_model/venv/
+__pycache__/
+*.pyc
+.DS_Store
